@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- шрифты -->
+    <link rel="preload" href="fonts/RobotoRegular.woff" as="fonts" />
+    <link rel="preload" href="fonts/RobotoRegular.woff2" as="fonts" />
+
+    <!-- стили -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/new-style.css" />
+  </head>
+
+  <body>
+    
+      <!-- <div class="wrapper"> -->
+        <div class="add-basket-body">
+          <header class="add-basket__header">
+            <a href="/" class="detail-page__back _icon-arrow-left"></a>
+            <div class="detail-page__block">
+              <button type="button" class="search _icon-search"></button>
+              <button type="button" class="share _icon-share"></button>
+              <button type="button" class="basket _icon-cart"></button>
+              <button type="button" class="burger _icon-menu"></button>
+            </div>
+          </header>
+          <main class="add-basket-content">
+            <section class="add-basket">
+              <div class="container add-basket__row-1">
+                <a href="detail.html" class="add-basket__close _icon-close-cross"></a>
+                <div class="add-basket__img">
+                  <img src="https://picsum.photos/72?random=1" alt="Название товара" />
+                </div>
+                <div class="add-basket__info">
+                  <div class="add-basket__price">
+                    <span class="new">10 500 тг.</span>
+                    <span class="old">10 500 тг.</span>
+                  </div>
+                  <span class="stock">В наличии: 2 000 шт.</span>
+                  <span class="type">Выбранное: "М" "синий"</span>
+                </div>
+              </div>
+              <div class="container add-basket__row-2">
+                <div class="add-basket__size-title">
+                  <span class="size-text">Выбор</span>
+                  <span class="icon-ruler">
+                    <i class="_icon-ruler"></i>
+                    Таблица размеров
+                  </span>
+                </div>
+                <div class="add-basket__size-block">
+                  <div class="add-basket__size-btn">
+                    <input id="size-m" type="radio" name="size" value="75~90" data-btn="size-m" />
+                    <label for="size-m">M 75~90</label>
+                  </div>
+                  <div class="add-basket__size-btn">
+                    <input id="size-l" type="radio" name="size" value="91~110" data-btn="size-l" />
+                    <label for="size-l">L 91~110</label>
+                  </div>
+                  <div class="add-basket__size-btn">
+                    <input id="size-xl" type="radio" name="size" value="111~125" data-btn="size-xl" />
+                    <label for="size-xl">XL 111~125</label>
+                  </div>
+                  <div class="add-basket__size-btn">
+                    <input id="size-xxl" type="radio" name="size" value="126~140" data-btn="size-xxl" />
+                    <label for="size-xxl">2XL 126~140</label>
+                  </div>
+                </div>
+                <div class="add-basket__tab">
+                  <div class="add-basket__tab-content" id="size-m">
+                    <div class="add-basket__tab-title">Изменения Товаров</div>
+                    <ul class="add-basket__tab-list">
+                      <li class="add-basket__tab-item">
+                        Плечо:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Бюст:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Обхват талии:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Длина брюк:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Длина рукава:
+                        <span>35cm</span>
+                      </li>
+                    </ul>
+                    <a href="/" class="add-basket__tab-link">
+                      Просмотр дополнительной информации о размере
+                    </a>
+                  </div>
+                  <div class="add-basket__tab-content" id="size-l">
+                    <div class="add-basket__tab-title">Изменения Товаров</div>
+                    <ul class="add-basket__tab-list">
+                      <li class="add-basket__tab-item">
+                        Плечо:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Обхват талии:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Окружность бедра:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Длина Топа:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Длина брюк:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Длина рукава:
+                        <span>35cm</span>
+                      </li>
+                    </ul>
+                    <a href="/" class="add-basket__tab-link">
+                      Просмотр дополнительной информации о размере
+                    </a>
+                  </div>
+                  <div class="add-basket__tab-content" id="size-xl">
+                    <div class="add-basket__tab-title">Изменения Товаров</div>
+                    <ul class="add-basket__tab-list">
+                      <li class="add-basket__tab-item">
+                        Плечо:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Бюст:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Длина Топа:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Длина брюк:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Длина рукава:
+                        <span>35cm</span>
+                      </li>
+                    </ul>
+                    <a href="/" class="add-basket__tab-link">
+                      Просмотр дополнительной информации о размере
+                    </a>
+                  </div>
+                  <div class="add-basket__tab-content" id="size-xxl">
+                    <div class="add-basket__tab-title">Изменения Товаров</div>
+                    <ul class="add-basket__tab-list">
+                      <li class="add-basket__tab-item">
+                        Обхват талии:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Окружность бедра:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Длина Топа:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Длина брюк:
+                        <span>35cm</span>
+                      </li>
+                      <li class="add-basket__tab-item">
+                        Длина рукава:
+                        <span>35cm</span>
+                      </li>
+                    </ul>
+                    <a href="/" class="add-basket__tab-link">
+                      Просмотр дополнительной информации о размере
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="container add-basket__row-3">
+                <div class="add-basket__color-title">Цвет (8)</div>
+                <div class="add-basket__custom-scroll">
+                  <div class="add-basket__color-block">
+                    <div class="add-basket__color-col">
+                      <div class="add-basket__color-btn">
+                        <input id="color-1" type="radio" name="color" value="розовый" />
+                        <label class="add-basket__color-lbl" for="color-1">
+                          <img src="https://picsum.photos/104?random=1" alt="Цвет" />
+                          <span>розовый</span>
+                        </label>
+                      </div>
+                      <div class="add-basket__color-btn">
+                        <input id="color-2" type="radio" name="color" value="розовый" />
+                        <label class="add-basket__color-lbl" for="color-2">
+                          <img src="https://picsum.photos/104?random=2" alt="Цвет" />
+                          <span>розовый</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="add-basket__color-col">
+                      <div class="add-basket__color-btn">
+                        <input id="color-3" type="radio" name="color" value="розовый" />
+                        <label class="add-basket__color-lbl" for="color-3">
+                          <img src="https://picsum.photos/104?random=3" alt="Цвет" />
+                          <span>розовый</span>
+                        </label>
+                      </div>
+                      <div class="add-basket__color-btn">
+                        <input id="color-4" type="radio" name="color" value="розовый" />
+                        <label class="add-basket__color-lbl" for="color-4">
+                          <img src="https://picsum.photos/104?random=4" alt="Цвет" />
+                          <span>розовый</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="add-basket__color-col">
+                      <div class="add-basket__color-btn">
+                        <input id="color-5" type="radio" name="color" value="розовый" />
+                        <label class="add-basket__color-lbl" for="color-5">
+                          <img src="https://picsum.photos/104?random=5" alt="Цвет" />
+                          <span>розовый</span>
+                        </label>
+                      </div>
+                      <div class="add-basket__color-btn">
+                        <input id="color-6" type="radio" name="color" value="розовый" />
+                        <label class="add-basket__color-lbl" for="color-6">
+                          <img src="https://picsum.photos/104?random=6" alt="Цвет" />
+                          <span>розовый</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="add-basket__color-col">
+                      <div class="add-basket__color-btn">
+                        <input id="color-7" type="radio" name="color" value="розовый" />
+                        <label class="add-basket__color-lbl" for="color-7">
+                          <img src="https://picsum.photos/104?random=7" alt="Цвет" />
+                          <span>розовый</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container add-basket__row-4">
+                <div class="add-basket__count-block">
+                  <div class="add-basket__count-title">Количество</div>
+                  <div class="add-basket__count-el">
+                    <button class="add-basket__count-btn minus">-</button>
+                    <input type="text" class="add-basket__count-number" value="1" />
+                    <button class="add-basket__count-btn plus">+</button>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div class="footer footer-detail">
+              <div class="container footer__container footer-detail__container">
+                <button type="button" class="footer-detail__btn sale">Купить</button>
+                <button type="button" class="footer-detail__btn basket">
+                  В корзину
+                </button>
+              </div>
+            </div>
+          </main>
+        </div>
+      <!-- </div> -->
+
+    <!-- jquery -->
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <!-- слайдер -->
+    <script src="script/slick.min.js"></script>
+    <!-- скрипты -->
+    <script src="script/script.js"></script>
+  </body>
+
+</html>

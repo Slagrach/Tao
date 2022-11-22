@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- шрифты -->
+    <link rel="preload" href="fonts/RobotoRegular.woff" as="fonts" />
+    <link rel="preload" href="fonts/RobotoRegular.woff2" as="fonts" />
+
+    <!-- стили -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/new-style.css" />
+  </head>
+  <body>
+    <section class="auth">
+      <div class="auth-container">
+        <div class="auth-content">
+          <div class="close">
+            <button class="_icon-close-cross" type="button"></button>
+          </div>
+          <form action="" class="auth__form">
+            <h2 class="section__title auth__title">Вход по телефону</h2>
+            <label class="auth__lbl">
+              <span>Телефон</span>
+              <input type="tel" name="phone" placeholder="+7" />
+            </label>
+            <button type="submit" class="auth__submit">Получить код</button>
+            <small>Мы отправили SMS с кодом подтверждения на этот номер</small>
+          </form>
+          <div class="auth__wrap-btn">
+            <button type="button" class="auth__google">
+              <span class="label"></span>
+              Войти с Google
+              <span></span>
+            </button>
+            <button type="button" class="auth__else">Войти другим способом</button>
+          </div>
+        </div>
+      </div>
+      <div class="auth-fade__popup">
+        <div class="popup auth__popup">
+          <span class="top-line"></span>
+          <div class="auth__popup-content">
+            <button class="close _icon-close-cross"></button>
+            <h2 class="section__title auth__popup-title">
+              Войти другим способом
+            </h2>
+            <ul class="auth__popup-list">
+              <li class="auth__popup-item phone">
+                <a href="/">Телефон</a>
+              </li>
+              <li class="auth__popup-item convert">
+                <a href="/">Почта</a>
+              </li>
+              <li class="auth__popup-item vk">
+                <a href="/">ВКонтакте</a>
+              </li>
+              <li class="auth__popup-item ok">
+                <a href="/">Однокласники</a>
+              </li>
+              <li class="auth__popup-item fb">
+                <a href="/">Facebook</a>
+              </li>
+              <li class="auth__popup-item google">
+                <a href="/">Google</a>
+              </li>
+              <li class="auth__popup-item mail">
+                <a href="/">Mail.ru</a>
+              </li>
+            </ul>
+            <small>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              asperiores id, voluptatum, quo nostrum, voluptatibus labore ducimus
+              ea tempore optio reprehenderit voluptas. Libero dolores veritatis
+              voluptates fugit modi animi quo?
+              <a href="/">Политикой</a>
+              и
+              <a href="/">Соглашением</a>
+            </small>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- jquery -->
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <!-- слайдер -->
+    <script src="script/slick.min.js"></script>
+    <!-- скрипты -->
+    <script src="script/script.js"></script>
+  </body>
+</html>

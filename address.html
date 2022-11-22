@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- шрифты -->
+    <link rel="preload" href="fonts/RobotoRegular.woff" as="fonts" />
+    <link rel="preload" href="fonts/RobotoRegular.woff2" as="fonts" />
+
+    <!-- стили -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/new-style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="basket-page__header">
+        <div class="container basket-page__header-container">
+          <a href="confirm.html">
+            <span class="_icon-arrow-left"></span>
+            Добавить адрес доставки
+            <span></span>
+          </a>
+        </div>
+      </header>
+      <main class="container confirm-content">
+        <section class="confirm-tooltip">
+          <div class="container confirm-address__container">
+            <img class="confirm-tooltip__icon" src="img/icon-confirm.png" alt="Декор" />
+            <div class="confirm-address__desc">
+              Заполните адрес доставки, посылка будет доставлена по этому адресу
+            </div>
+          </div>
+        </section>
+        <section class="confirm-address__form">
+          <div class="container">
+            <form action="">
+              <label>
+                <span>ФИО</span>
+                <input type="text" placeholder="Введите ФИО" />
+              </label>
+              <label>
+                <span>Номер телефона</span>
+                <input type="tel" placeholder="Введите номер телефона" />
+              </label>
+              <label>
+                <span>Регион</span>
+                <input type="text" placeholder="Область, район" />
+              </label>
+              <label>
+                <span>Адрес</span>
+                <textarea placeholder="Город, улица, дом"></textarea>
+              </label>
+            </form>
+            <details class="confirm-address__form-drop">
+              <summary>Пpимер
+                <span class="_icon-arrow-down"></span>
+              </summary>
+              <div class="content">
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
+            </details>
+            <div class="confirm-address__form-stock">
+              <span>Задать как адрес по умолчанию</span>
+              <label class="switch">
+                <input type="checkbox" checked />
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="confirm-address__form-btn">
+              <a href="last.html">Продолжить</a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <!-- jquery -->
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <!-- слайдер -->
+    <script src="script/slick.min.js"></script>
+    <!-- скрипты -->
+    <script src="script/script.js"></script>
+  </body>
+
+</html>

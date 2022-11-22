@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- шрифты -->
+    <link rel="preload" href="fonts/RobotoRegular.woff" as="fonts" />
+    <link rel="preload" href="fonts/RobotoRegular.woff2" as="fonts" />
+
+    <!-- стили -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/new-style.css" />
+  </head>
+  <div class="wrapper">
+    <div class="confirm-content-two">
+      <header class="basket-page__header">
+        <div class="container basket-page__header-container">
+          <span class="_icon-arrow-left"></span>
+          <a href="addbasket.html">Подтвердите заказ</a>
+          <span></span>
+        </div>
+      </header>
+      <main>
+        <section class="confirm-tooltip">
+          <div class="container confirm-tooltip__container">
+            <img class="confirm-tooltip__icon" src="img/icon-confirm.png" alt="Декор" />
+            <ul class="confirm-tooltip__list">
+              <li class="confirm-tooltip__item">1. Введите адрес</li>
+              <li class="confirm-tooltip__item">2. Подтвертите информацию</li>
+              <li class="confirm-tooltip__item">3. Завершите оплату</li>
+            </ul>
+          </div>
+        </section>
+        <section class="confirm-address">
+          <div class="container confirm-address__container container confirm-marker__container">
+            <a href="address.html" class="confirm-marker__link">
+              <img class="confirm-tooltip__icon" src="img/marker-confirm.png" alt="Маркер" />
+              <span class="confirm-roolrip__text">
+                Пожалуйста заполните адрес доставки
+              </span>
+              <span class="_icon-arrow"></span>
+            </a>
+          </div>
+        </section>
+        <section class="confirm-info">
+          <div class="container confirm-info__container">
+            <div class="confirm-info__header">
+              <div class="confirm-info__img">
+                <img src="https://picsum.photos/82" alt="Название товара" />
+              </div>
+              <div class="confirm-info__params">
+                <div class="confirm-info__params-top">
+                  <div class="confirm-info__params-name">
+                    Летняя новая корейска женская футболка с короткими рукавами
+                    ...
+                  </div>
+                  <div class="confirm-info__params-price">
+                    <span class="price">
+                      $ 9
+                      <span>.90</span>
+                    </span>
+                    <span class="count">x1</span>
+                  </div>
+                </div>
+                <div class="confirm-info__params-bot">
+                  <span class="size">Выбрано: Цвет: белый</span>
+                  <span class="color">Размер: L 45~55 KG</span>
+                </div>
+              </div>
+            </div>
+            <div class="confirm-info__content">
+              <a href="/" class="confirm-info__content-link">
+                <div class="confirm-info__content-el">Способы доставки</div>
+                <div class="confirm-info__content-el">Казпочта / Kazpost</div>
+                <span class="_icon-arrow"></span>
+              </a>
+              <a href="/" class="confirm-info__content-link">
+                <div class="confirm-info__content-el">Стоимость доставки</div>
+                <div class="confirm-info__content-el">Т 750</div>
+                <span class="_icon-arrow"></span>
+              </a>
+              <div class="confirm-info__content-block">
+                <div class="confirm-info__content-el">Примечания к заказу</div>
+                <div class="confirm-info__content-el wish">
+                  Сообщения по желанию
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer footer-basket">
+        <div class="container footer-basket__container footer-confirm__container">
+          <div class="footer-basket__block">
+            <div class="footer-basket__l">
+              <span class="text">Текст:</span>
+              <span class="price">
+                <span>$</span>
+                9
+              </span>
+            </div>
+            <div class="footer-basket__r">
+              <a href="/" class="arrange">Оформить</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- </div> -->
+  </div>
+  <!-- jquery -->
+  <script src="script/jquery-3.6.0.min.js"></script>
+  <!-- слайдер -->
+  <script src="script/slick.min.js"></script>
+  <!-- скрипты -->
+  <script src="script/script.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- шрифты -->
+    <link rel="preload" href="fonts/RobotoRegular.woff" as="fonts" />
+    <link rel="preload" href="fonts/RobotoRegular.woff2" as="fonts" />
+
+    <!-- стили -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/new-style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="basket-body">
+        <header class="basket-page__header">
+          <div class="container basket-page__header-container">
+            <span class="_icon-arrow-left"></span>
+            <div class="basket-link">
+              <a href="addbasket.html">Корзина (3)</a>
+            </div>
+            <span class="_icon-bin"></span>
+          </div>
+        </header>
+        <main class="basket-container container">
+          <section class="basket-page basket-content">
+            <div class="basket-page__title">
+              <input id="all" type="checkbox" />
+              <label for="all">Все товары</label>
+            </div>
+            <ul class="basket-page__cards">
+              <li class="basket-page__card">
+                <input id="check-item-1" type="checkbox" />
+                <label for="check-item-1">
+                  <div class="basket-page__img">
+                    <img src="https://picsum.photos/104" alt="Товар" />
+                  </div>
+                  <div class="basket-page__info">
+                    <div class="basket-page__el">
+                      <div class="basket-page__name">Название товара</div>
+                      <div class="basket-page__desc">Описание товара</div>
+                    </div>
+                    <div class="basket-page__price">
+                      <span>
+                        $ 9.
+                        <span>9</span>
+                      </span>
+                      <button type="button">x1</button>
+                    </div>
+                  </div>
+                </label>
+              </li>
+              <li class="basket-page__card">
+                <input id="check-item-2" type="checkbox" />
+                <label for="check-item-2">
+                  <div class="basket-page__img">
+                    <img src="https://picsum.photos/104" alt="Товар" />
+                  </div>
+                  <div class="basket-page__info">
+                    <div class="basket-page__el">
+                      <div class="basket-page__name">Название товара</div>
+                      <div class="basket-page__desc">Описание товара</div>
+                    </div>
+                    <div class="basket-page__price">
+                      <span>
+                        $ 9.
+                        <span>9</span>
+                      </span>
+                      <button type="button">x1</button>
+                    </div>
+                  </div>
+                </label>
+              </li>
+              <li class="basket-page__card">
+                <input id="check-item-3" type="checkbox" />
+                <label for="check-item-3">
+                  <div class="basket-page__img">
+                    <img src="https://picsum.photos/104" alt="Товар" />
+                  </div>
+                  <div class="basket-page__info">
+                    <div class="basket-page__el">
+                      <div class="basket-page__name">Название товара</div>
+                      <div class="basket-page__desc">Описание товара</div>
+                    </div>
+                    <div class="basket-page__price">
+                      <span>
+                        $ 9.
+                        <span>9</span>
+                      </span>
+                      <button type="button">x1</button>
+                    </div>
+                  </div>
+                </label>
+              </li>
+              <li class="basket-page__card">
+                <input id="check-item-4" type="checkbox" />
+                <label for="check-item-4">
+                  <div class="basket-page__img">
+                    <img src="https://picsum.photos/104" alt="Товар" />
+                  </div>
+                  <div class="basket-page__info">
+                    <div class="basket-page__el">
+                      <div class="basket-page__name">Название товара</div>
+                      <div class="basket-page__desc">Описание товара</div>
+                    </div>
+                    <div class="basket-page__price">
+                      <span>
+                        $ 9.
+                        <span>9</span>
+                      </span>
+                      <button type="button">x1</button>
+                    </div>
+                  </div>
+                </label>
+              </li>
+            </ul>
+          </section>
+        </main>
+        <footer class="footer footer-basket">
+          <div class="container footer-basket__container">
+            <div class="footer-basket__all">
+              <input type="checkbox" name="" id="footer-check" />
+              <label for="footer-check">Все</label>
+            </div>
+            <div class="footer-basket__block">
+              <div class="footer-basket__l">
+                <span class="text">Текст:</span>
+                <span class="price">
+                  <span>$</span>
+                  9
+                </span>
+              </div>
+              <div class="footer-basket__r">
+                <a href="/" class="arrange">Оформить</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- jquery -->
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <!-- слайдер -->
+    <script src="script/slick.min.js"></script>
+    <!-- скрипты -->
+    <script src="script/script.js"></script>
+  </body>
+
+</html>

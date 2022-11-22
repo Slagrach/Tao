@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- шрифты -->
+    <link rel="preload" href="fonts/RobotoRegular.woff" as="fonts" />
+    <link rel="preload" href="fonts/RobotoRegular.woff2" as="fonts" />
+
+    <!-- стили -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/new-style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="profile-header">
+        <div class="container">
+          <div class="profile-header__user">
+            <img src="img/profile-user.png" alt="ПОльзоавтель" />
+            <button type="button" class="profile-header__sing">Войти</button>
+          </div>
+          <ul class="profile-header__list">
+            <li class="profile-header__item">
+              <a href="/">
+                <!-- <img src="img/like.svg" alt="Избранное" /> -->
+                <span class="_icon-like"></span>
+                <span>Избранное</span>
+              </a>
+            </li>
+            <li class="profile-header__item">
+              <a href="/">
+                <!-- <img src="img/profile-time.png" alt="История" /> -->
+                <span class="_icon-history"></span>
+                <span>История</span>
+              </a>
+            </li>
+            <li class="profile-header__item">
+              <a href="/">
+                <!-- <img src="img/profile-kupon.png" alt="Купоны" /> -->
+                <span class="_icon-coupon"></span>
+                <span>Купоны</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="profile-order">
+        <div class="container profile-order__container">
+          <div class="profile-order__header">
+            <h2 class="section__title profile-order__title">Заказы</h2>
+            <a href="/">Посмотреть все
+              <span class="_icon-arrow"></span>
+            </a>
+          </div>
+          <ul class="profile-order__list">
+            <li class="profile-order__item">
+              <a href="/" class="profile-order__link">
+                <img src="img/profile-oplata.png" alt="Ожидается оплата" />
+                <span>Ожидается оплата</span>
+              </a>
+            </li>
+            <li class="profile-order__item">
+              <a href="/" class="profile-order__link">
+                <img src="img/profile-otpravka.png" alt="Ожидается отправка" />
+                <span>Ожидается отправка</span>
+              </a>
+            </li>
+            <li class="profile-order__item">
+              <a href="/" class="profile-order__link">
+                <img src="img/profile-otpravlen.png" alt="Заказ отправлен" />
+                <span>Заказ отправлен</span>
+              </a>
+            </li>
+            <li class="profile-order__item">
+              <a href="/" class="profile-order__link">
+                <img src="img/profile-otziv.png" alt="Ожидается отзыв" />
+                <span>Ожидается отзыв</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="profile-service">
+        <div class="container profile-service__container">
+          <h2 class="section__title profile-service__title">Сервисы</h2>
+          <ul class="profile-service__list">
+            <li class="profile-service__item">
+              <a href="/">
+                <img src="img/profile-support.png" alt="Служба поддержки" />
+                <span>Служба поддержки</span>
+              </a>
+            </li>
+            <li class="profile-service__item">
+              <a href="/">
+                <img src="img/profile-marker.png" alt="Адрес доставки" />
+                <span>Адрес доставки</span>
+              </a>
+            </li>
+            <li class="profile-service__item">
+              <a href="/">
+                <img src="img/profile-center-kup.png" alt="Центр купонов" />
+                <span>Центр купонов</span>
+              </a>
+            </li>
+            <li class="profile-service__item">
+              <a href="/">
+                <img src="img/profile-callback.png" alt="Обратная связь" />
+                <span>Обратная связь</span>
+              </a>
+            </li>
+            <li class="profile-service__item">
+              <a href="/">
+                <img src="img/profile-question.png" alt="Вопросы и ответы" />
+                <span>Вопросы и ответы</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <!-- jquery -->
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <!-- слайдер -->
+    <script src="script/slick.min.js"></script>
+    <!-- скрипты -->
+    <script src="script/script.js"></script>
+  </body>
+</html>

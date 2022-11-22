@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- шрифты -->
+    <link rel="preload" href="fonts/RobotoRegular.woff" as="fonts" />
+    <link rel="preload" href="fonts/RobotoRegular.woff2" as="fonts" />
+
+    <!-- стили -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/new-style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="detail-page__header">
+        <a href="/" class="detail-page__back _icon-arrow-left"></a>
+        <div class="detail-page__block">
+          <button type="button" class="search _icon-search"></button>
+          <button type="button" class="share _icon-share"></button>
+          <button type="button" class="basket _icon-cart"></button>
+          <button type="button" class="burger _icon-menu"></button>
+        </div>
+      </header>
+      <main class="detail-page__main">
+        <section class="detail-page">
+          <!-- слайдер изображений -->
+          <div class="detail-page__img">
+            <div class="detail-page__slider">
+              <div class="slide-item">
+                <img src="img/img2.jpg" alt="Слайд 1" />
+              </div>
+              <div class="slide-item">
+                <img src="img/img2.jpg" alt="Слайд 2" />
+              </div>
+              <div class="slide-item">
+                <img src="img/img2.jpg" alt="Слайд 3" />
+              </div>
+              <div class="slide-item">
+                <img src="img/img2.jpg" alt="Слайд 4" />
+              </div>
+              <div class="slide-item">
+                <img src="img/img2.jpg" alt="Слайд 5" />
+              </div>
+            </div>
+            <div class="detail-page__dots"></div>
+          </div>
+          <!-- описание товара -->
+          <div class="detail-page__desc">
+            <div class="container section__container detail-page__desc-container">
+              <div class="detail-page__desc-top">
+                <div class="detail-page__desc-price">
+                  <span class="new">10 500 <span>тг</span>.</span>
+                  <span class="old">10 500 <span>тг.</span></span>
+                </div>
+                <small>Купили: более 2 000 раз</small>
+              </div>
+              <div class="detail-page__desc-bottom">
+                <div class="detail-page__desc-name">
+                  Короткая куртка с утолщением из бархата, весна 2021
+                </div>
+                <span class="icon _icon-like"></span>
+              </div>
+            </div>
+          </div>
+          <!-- характеристики товара -->
+          <div class="detail-page__params">
+            <div class="container section__container detail-page__params-container">
+              <div class="detail-page__params-content">
+                <a href="addbasket.html">
+                  Выбор
+                  <span class="active">Выбранное: "М" "синий"</span>
+                </a>
+                <div class="detail-page__params-block">
+                  <div class="detail-page__params-img">
+                    <img src="https://picsum.photos/32/32" alt="Выбор цвета" />
+                    <img src="https://picsum.photos/32/32" alt="Выбор цвета" />
+                    <img src="https://picsum.photos/32/32" alt="Выбор цвета" />
+                    <img src="https://picsum.photos/32/32" alt="Выбор цвета" />
+                  </div>
+                  <button type="button" class="detail-page__params-btn">
+                    Выбор 41 цветов
+                  </button>
+                </div>
+              </div>
+              <div class="detail-page__params-content">
+                <a href="service.html">
+                  Сервис
+                  <span>Защита покупателя 45 дн.</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- отзывы -->
+          <div class="detail-page__recall">
+            <div class="container section__container detail-page__recall-container">
+              <div class="detail-page__recall-header">
+                <h2 class="section__title">
+                  Отзывы
+                  <span class="count">(140)</span>
+                </h2>
+                <a href="recall.html" class="detail-page__recall-all _icon-arrow">
+                  Все отзывы
+                </a>
+              </div>
+              <ul class="detail-page__recall-list">
+                <li class="detail-page__recall-item">
+                  <img src="https://picsum.photos/82/82" alt="Отзыв" />
+                </li>
+                <li class="detail-page__recall-item">
+                  <img src="https://picsum.photos/82/82" alt="Отзыв" />
+                </li>
+                <li class="detail-page__recall-item">
+                  <img src="https://picsum.photos/82/82" alt="Отзыв" />
+                </li>
+                <li class="detail-page__recall-item">
+                  <img src="https://picsum.photos/82/82" alt="Отзыв" />
+                </li>
+              </ul>
+              <div class="detail-page__recall-block">
+                <div class="detail-page__recall-user">
+                  <img src="img/user.svg" alt="Пользователь" />
+                  <span class="name">t**8</span>
+                </div>
+                <div class="detail-page__recall-text">
+                  <p>
+                    Футболка очень классная, все нравится, Материал хороший,
+                    плотный. все как на...
+                  </p>
+                </div>
+              </div>
+              <div class="detail-page__recall-block">
+                <div class="detail-page__recall-user">
+                  <img src="img/user.svg" alt="Пользователь" />
+                  <span class="name">t**2</span>
+                </div>
+                <div class="detail-page__recall-text">
+                  <p>
+                    Футболка как в описании, на ощуп похож...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- похожие товары -->
+          <div class="detail-page__similar">
+            <div class="container section__container detail-page__similar-container">
+              <h2 class="section__title detail-page__similar-title">
+                Похожие товары
+              </h2>
+              <ul class="detail-page__similar-cards">
+                <li class="detail-page__similar-card">
+                  <a href="/" class="detail-page__similar-img">
+                    <img src="https://picsum.photos/104/104" alt="Название товара" />
+                  </a>
+                  <a href="/" class="detail-page__similar-name">
+                    Футболка с принтами
+                  </a>
+                  <div class="detail-page__similar-sold">900 продано</div>
+                  <div class="detail-page__similar-price">1 290 тг.</div>
+                </li>
+                <li class="detail-page__similar-card">
+                  <a href="/" class="detail-page__similar-img">
+                    <img src="https://picsum.photos/104/104" alt="Название товара" />
+                  </a>
+                  <a href="/" class="detail-page__similar-name">
+                    Футболка с принтами
+                  </a>
+                  <div class="detail-page__similar-sold">900 продано</div>
+                  <div class="detail-page__similar-price">1 290 тг.</div>
+                </li>
+                <li class="detail-page__similar-card">
+                  <a href="/" class="detail-page__similar-img">
+                    <img src="https://picsum.photos/104/104" alt="Название товара" />
+                  </a>
+                  <a href="/" class="detail-page__similar-name">
+                    Футболка с принтами
+                  </a>
+                  <div class="detail-page__similar-sold">900 продано</div>
+                  <div class="detail-page__similar-price">1 290 тг.</div>
+                </li>
+                <li class="detail-page__similar-card">
+                  <a href="/" class="detail-page__similar-img">
+                    <img src="https://picsum.photos/104/104" alt="Название товара" />
+                  </a>
+                  <a href="/" class="detail-page__similar-name">
+                    Футболка с принтами
+                  </a>
+                  <div class="detail-page__similar-sold">900 продано</div>
+                  <div class="detail-page__similar-price">1 290 тг.</div>
+                </li>
+                <li class="detail-page__similar-card">
+                  <a href="/" class="detail-page__similar-img">
+                    <img src="https://picsum.photos/104/104" alt="Название товара" />
+                  </a>
+                  <a href="/" class="detail-page__similar-name">
+                    Футболка с принтами
+                  </a>
+                  <div class="detail-page__similar-sold">900 продано</div>
+                  <div class="detail-page__similar-price">1 290 тг.</div>
+                </li>
+                <li class="detail-page__similar-card">
+                  <a href="/" class="detail-page__similar-img">
+                    <img src="https://picsum.photos/104/104" alt="Название товара" />
+                  </a>
+                  <a href="/" class="detail-page__similar-name">
+                    Футболка с принтами
+                  </a>
+                  <div class="detail-page__similar-sold">900 продано</div>
+                  <div class="detail-page__similar-price">1 290 тг.</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Информация о товаре -->
+          <div class="detail-page__info">
+            <div class="container section__container detail-page__info-container">
+              <div class="detail-page__info-header">
+                <h2 class="section__title detail-page__info-title">
+                  Описание товара
+                </h2>
+                <span class="icon">?</span>
+              </div>
+              <div class="detail-page__info-block">
+                <div class="detail-page__info-el">
+                  <span class="desc">Описание</span>
+                  <span class="text">описание, описание</span>
+                </div>
+                <div class="detail-page__info-el">
+                  <span class="desc">Описание</span>
+                  <span class="text">описание, описание</span>
+                </div>
+                <div class="detail-page__info-el">
+                  <span class="desc">Описание</span>
+                  <span class="text">описание, описание</span>
+                </div>
+                <div class="detail-page__info-el">
+                  <span class="desc">Описание</span>
+                  <span class="text">описание, описание</span>
+                </div>
+                <div class="detail-page__info-el">
+                  <span class="desc">Описание</span>
+                  <span class="text">описание, описание</span>
+                </div>
+                <div class="detail-page__info-el">
+                  <span class="desc">Описание</span>
+                  <span class="text">описание, описание</span>
+                </div>
+                <a href="/" class="detail-page__info-link _icon-arrow">Подробнее</a>
+              </div>
+            </div>
+            <div class="container">
+              <div class="detail__content-img">
+                <div class="detail-page__info-img">
+                  <img src="https://picsum.photos/344/344" alt="Товар" />
+                </div>
+                <div class="detail-page__info-img">
+                  <img src="https://picsum.photos/344/344" alt="Товар" />
+                </div>
+                <div class="detail-page__info-img">
+                  <img src="https://picsum.photos/344/344" alt="Товар" />
+                </div>
+                <div class="detail-page__info-img">
+                  <img src="https://picsum.photos/344/344" alt="Товар" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Подобрано для вас -->
+          <div class="detail-page__foryou">
+            <div class="container">
+              <h2 class="section__title detail-page__foryou-title">
+                <span class="_icon"></span>
+                Подобрано для Вас
+              </h2>
+              <ul class="detail-page__foryou-cards">
+                <li class="detail-page__foryou-card">
+                  <a href="/" class="detail-page__foryou-link">
+                    <div class="detail-page__foryou-img">
+                      <img src="https://picsum.photos/344/344" alt="Название товара" />
+                    </div>
+                    <div class="detail-page__foryou-name">
+                      Футболка с набписью корейский стиль 2021
+                    </div>
+                    <div class="detail-page__foryou-block">
+                      <div class="price">1 390 тг.</div>
+                      <div class="sold">3 950 продано</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="detail-page__foryou-card">
+                  <a href="/" class="detail-page__foryou-link">
+                    <div class="detail-page__foryou-img">
+                      <img src="https://picsum.photos/344/344" alt="Название товара" />
+                    </div>
+                    <div class="detail-page__foryou-name">
+                      Футболка с набписью корейский стиль 2021
+                    </div>
+                    <div class="detail-page__foryou-block">
+                      <div class="sold">3 950 продано</div>
+                      <div class="price">1 390 тг.</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="detail-page__foryou-card">
+                  <a href="/" class="detail-page__foryou-link">
+                    <div class="detail-page__foryou-img">
+                      <img src="https://picsum.photos/344/344" alt="Название товара" />
+                    </div>
+                    <div class="detail-page__foryou-name">
+                      Футболка с набписью корейский стиль 2021
+                    </div>
+                    <div class="detail-page__foryou-block">
+                      <div class="sold">3 950 продано</div>
+                      <div class="price">1 390 тг.</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="detail-page__foryou-card">
+                  <a href="/" class="detail-page__foryou-link">
+                    <div class="detail-page__foryou-img">
+                      <img src="https://picsum.photos/344/344" alt="Название товара" />
+                    </div>
+                    <div class="detail-page__foryou-name">
+                      Футболка с набписью корейский стиль 2021
+                    </div>
+                    <div class="detail-page__foryou-block">
+                      <div class="sold">3 950 продано</div>
+                      <div class="price">1 390 тг.</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="detail-page__foryou-card">
+                  <a href="/" class="detail-page__foryou-link">
+                    <div class="detail-page__foryou-img">
+                      <img src="https://picsum.photos/344/344" alt="Название товара" />
+                    </div>
+                    <div class="detail-page__foryou-name">
+                      Футболка с набписью корейский стиль 2021
+                    </div>
+                    <div class="detail-page__foryou-block">
+                      <div class="sold">3 950 продано</div>
+                      <div class="price">1 390 тг.</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="detail-page__foryou-card">
+                  <a href="/" class="detail-page__foryou-link">
+                    <div class="detail-page__foryou-img">
+                      <img src="https://picsum.photos/344/344" alt="Название товара" />
+                    </div>
+                    <div class="detail-page__foryou-name">
+                      Футболка с набписью корейский стиль 2021
+                    </div>
+                    <div class="detail-page__foryou-block">
+                      <div class="sold">3 950 продано</div>
+                      <div class="price">1 390 тг.</div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer footer-detail">
+        <div class="container footer__container footer-detail__container">
+          <!-- <button type="button" class="footer-detail__btn sale">Купить</button> -->
+          <div class="footer__content">
+            <!-- <span class="_icon-like"></span> -->
+            <button type="button" class="footer-detail__btn buy">
+              Купить
+            <button type="button" class="footer-detail__btn basket">
+              В корзину
+            </button>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- jquery -->
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <!-- слайдер -->
+    <script src="script/slick.min.js"></script>
+    <!-- скрипты -->
+    <script src="script/script.js"></script>
+  </body>
+
+</html>
